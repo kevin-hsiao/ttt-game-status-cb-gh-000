@@ -26,7 +26,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.none? {|spot| != " "}
+  board.none? {|spot| == " "}
 end
 
 def draw?
