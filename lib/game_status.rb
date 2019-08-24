@@ -54,6 +54,6 @@ def winner(board)
   puts combination[0]
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", "X", " ", " ", " ", " ", " ", " "]
 won?(board)
 winner(board)
