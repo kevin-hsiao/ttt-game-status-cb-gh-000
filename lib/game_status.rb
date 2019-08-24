@@ -55,6 +55,7 @@ def winner(board)
     board[combination[0]]
   else
     nil
+  end
 end
 
 board = ["X", " ", "X", " ", " ", " ", " ", " ", " "]
