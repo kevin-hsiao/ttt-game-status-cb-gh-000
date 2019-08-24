@@ -29,7 +29,7 @@ def full?(board)
   board.none? {|spot| spot == " "}
 end
 
-def draw?
+def draw?(board)
 end
 
 def over?
