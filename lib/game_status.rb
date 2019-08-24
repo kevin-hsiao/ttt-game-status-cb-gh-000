@@ -50,7 +50,9 @@ def over?(board)
 end
 
 def winner(board)
+  combination = won?(board)
+  puts combination[0]
 end
 
-#board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-#won?(board)
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+won?(board)
