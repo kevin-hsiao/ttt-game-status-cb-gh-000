@@ -60,4 +60,4 @@ end
 
 board = ["X", " ", "X", " ", " ", " ", " ", " ", " "]
 won?(board)
-winner(board)
+puts winner(board)
