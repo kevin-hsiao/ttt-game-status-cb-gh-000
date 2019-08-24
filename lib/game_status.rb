@@ -58,6 +58,6 @@ def winner(board)
   end
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "O", " ", " ", "O", " ", " ", "O"]
 won?(board)
 puts winner(board)
