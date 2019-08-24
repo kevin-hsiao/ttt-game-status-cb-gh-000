@@ -51,7 +51,10 @@ end
 
 def winner(board)
   combination = won?(board)
-  puts combination[0]
+  if combination
+    board[combination[0]]
+  else
+    nil
 end
 
 board = ["X", " ", "X", " ", " ", " ", " ", " ", " "]
