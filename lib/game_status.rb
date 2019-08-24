@@ -57,7 +57,3 @@ def winner(board)
     nil
   end
 end
-
-board = ["X", "X", "O", " ", " ", "O", " ", " ", "O"]
-won?(board)
-puts winner(board)
