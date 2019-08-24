@@ -47,5 +47,5 @@ end
 def winner
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-won?(board)
+#board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+#won?(board)
